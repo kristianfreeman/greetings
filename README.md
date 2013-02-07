@@ -25,7 +25,7 @@ Or install it yourself as:
 
 `moshimoshi` uses a text tag, which means it can be easily integrated into any Rails view.
 
-```ruby
+```erb
 <%= moshimoshi_tag %>, <%= current_user.name %>
 ```
 
