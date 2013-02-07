@@ -1,6 +1,6 @@
 # Moshimoshi
 
-> もしもし!    
+> もしもし!
 > Hello!
 
 `moshimoshi` is a Rails text helper that returns a randomized greeting from a large selection of languages (currently 135+). This functionality is likely familiar to those who have used [Flickr](http://flickr.com) or [Gravatar](http://gravatar.com).
@@ -25,13 +25,13 @@ Or install it yourself as:
 
 `moshimoshi` uses a text tag, which means it can be easily integrated into any Rails view.
 
-    ```ruby
-    <%= moshimoshi_tag %>, <%= current_user.name %>
-    ```
+```ruby
+<%= moshimoshi_tag %>, <%= current_user.name %>
+```
 
 ## Contributing
 
-Pull requests always welcome! If I'm missing a greeting (check the [YAML file](http://github.com/imkmf/moshimoshi/blob/master/lib/moshimoshi/greetings.yml)), submit it! 
+Pull requests always welcome! If I'm missing a greeting (check the [YAML file](http://github.com/imkmf/moshimoshi/blob/master/lib/moshimoshi/greetings.yml)), submit it!
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
