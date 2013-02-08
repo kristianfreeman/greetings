@@ -1,6 +1,7 @@
 # Moshimoshi
 
 > もしもし!
+>
 > Hello!
 
 `moshimoshi` is a Rails text helper that returns a randomized greeting from a large selection of languages (currently 135+). This functionality is likely familiar to those who have used [Flickr](http://flickr.com) or [Gravatar](http://gravatar.com).
