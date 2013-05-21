@@ -1,7 +1,7 @@
 module Rails
-  module Moshimoshi
+  module Greetings
     module Helper
-      def moshimoshi_tag
+      def greetings_tag
         greetings = YAML.load_file(File.join(File.dirname(__FILE__),"greetings.yml"))
         return greetings.sample
       end

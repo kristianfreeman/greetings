@@ -1,18 +1,18 @@
 require 'yaml'
-require "moshimoshi/helper"
-require "moshimoshi/version"
+require "greetings/helper"
+require "greetings/version"
 
 module Rails
-  module Moshimoshi
+  module Greetings
     if defined?(::Rails::Engine)
       class Engine < ::Rails::Engine
-        initializer 'rails-moshimoshi', group: :all do |app|
+        initializer 'rails-greetings', group: :all do |app|
           ActiveSupport.on_load(:action_controller) do
-            include Rails::Moshimoshi::Helper
+            include Rails::Greetings::Helper
           end
 
           ActiveSupport.on_load(:action_view) do
-            include Rails::Moshimoshi::Helper
+            include Rails::Greetings::Helper
           end
         end
       end

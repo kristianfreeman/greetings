@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'bundler/setup'
-require 'moshimoshi'
+require 'greetings'
 require 'stub'
 
 RSpec.configure do |config|

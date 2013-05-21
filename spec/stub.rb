@@ -1,7 +1,7 @@
-class MoshimoshiStub
-  include Rails::Moshimoshi::Helper
+class GreetingsStub
+  include Rails::Greetings::Helper
 
-  def moshimoshi_tag
+  def greetings_tag
     greetings = YAML.load_file('greetings.yml')
     return greetings.sample
   end
